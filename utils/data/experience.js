@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: 'ソフトウェアエンジニア I',
+    company: "Upwork (フリーランス)",
+    duration: "(5月 2025 - 現在)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "フルスタック開発者",
+    company: "Teton Private Ltd.",
+    duration: "(5月 2023 - 5月 2024)"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: "自営業",
+    company: "毎日何かをコーディングして構築します。",
+    duration: "(4月 2019 - 3月 2023)"
   }
 ]
