@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
         role: 'バックエンド開発者',
         code: '',
-        demo: '',
+        demo: 'https://www.workiva.com/ja-jp/',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const projectsData = [
         tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
         role: 'フルスタック開発者',
         code: '',
-        demo: '',
+        demo: 'https://www.ikyu.com/',
     },
     {
         id: 3,
@@ -24,22 +24,26 @@ export const projectsData = [
         tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
         code: '',
         role: 'フルスタック開発者',
-        demo: '',
+        demo: 'https://www.knock-knock-ai.com/',
     },
     {
         id: 4,
-        name: 'ニュースルーム管理システム',
-        description: "Newsroom Managementという新聞管理ダッシュボードアプリケーションを開発。フロントエンド開発者として、NextJS、Material UI、Redux、Calendar、その他の必要なnpmライブラリを使用してダッシュボードを作成。アプリケーションの状態管理にReact Reduxを、フォーム処理にReact-hook-formとSun Editorを採用。",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'クラウド会計ソフト',
+        description: "freeeはすべてのスモールビジネスを支える統合型経営プラットフォームです。従来バラバラに存在していた業務やデータをフロントオフィスからバックオフィスまで一気通貫させ、誰もが自由に経営を行えること目指します。",
+        tools: ['Wordpress', 'PHP', 'MySQL', 'Sun Editor', "Calendar"],
         code: '',
-        demo: '',
+        demo: 'https://www.freee.co.jp/',
         role: 'フルスタック開発者',
-    }
+    },
 ];
 
 
 // プロパティを削除しないでください
 // 代わりに以下のように空白のままにしてください
+
+// code: GitHubリポジトリのURL（例: 'https://github.com/username/project-name'）
+// demo: ライブデモサイトのURL（例: 'https://your-project-demo.vercel.app'）
+// 空の場合は、対応するボタンが表示されません
 
 // {
 //     id: 1,
@@ -47,6 +51,6 @@ export const projectsData = [
 //     description: "",
 //     tools: [],
 //     role: '',
-//     code: '',
-//     demo: '',
+//     code: '', // GitHubリンクを追加
+//     demo: '', // ライブデモリンクを追加
 // },

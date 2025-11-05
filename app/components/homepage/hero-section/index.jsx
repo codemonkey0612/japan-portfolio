@@ -29,14 +29,14 @@ function HeroSection() {
           </h1>
 
           <div className="my-12 flex items-center gap-5">
-            <Link
+            {/* <Link
               href={personalData.github}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
-            {/* <Link
+            <Link
               href={personalData.linkedIn}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
@@ -44,7 +44,7 @@ function HeroSection() {
               <BsLinkedin size={30} />
             </Link> */}
            
-          </div>
+          </div>  
 
           <div className="flex items-center gap-3">
             <Link href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
@@ -95,7 +95,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
+                <span className="text-amber-300">Wordpress</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -108,6 +108,8 @@ function HeroSection() {
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">...</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
@@ -148,7 +150,7 @@ function HeroSection() {
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
                 <span className="mr-2 text-white">skills.length</span>
                 <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="text-orange-400">15</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>

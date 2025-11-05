@@ -1,6 +1,9 @@
 // @flow strict
 
 import * as React from 'react';
+import Link from 'next/link';
+import { BsGithub } from 'react-icons/bs';
+import { HiExternalLink } from 'react-icons/hi';
 
 function ProjectCard({ project }) {
 
@@ -64,6 +67,32 @@ function ProjectCard({ project }) {
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
+      {(project.code || project.demo) && (
+        <div className="px-4 lg:px-8 pb-4 lg:pb-6 flex items-center gap-3 flex-wrap">
+          {project.code && (
+            <Link
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-4 py-2 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:scale-105 md:font-semibold"
+            >
+              <BsGithub size={16} />
+              <span>GitHub</span>
+            </Link>
+          )}
+          {project.demo && (
+            <Link
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 px-4 py-2 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:scale-105 md:font-semibold"
+            >
+              <HiExternalLink size={16} />
+              <span>ライブデモ</span>
+            </Link>
+          )}
+        </div>
+      )}
     </div>
   );
 };

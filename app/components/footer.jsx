@@ -15,14 +15,14 @@ function Footer() {
             © 開発者ポートフォリオ（制作: Toma Work）
           </p>
           <div className="flex items-center gap-5">
-            <Link
+            {/* <Link
               target="_blank"
               href="https://github.com/codemonkey0612"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
-            >
+            > */}
               <IoStar />
               <span>スター</span>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </div>
